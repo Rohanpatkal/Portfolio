@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+}
+.container
+{
+    background-color: rgb(48, 45, 71);
+    height: 54rem;
+    background-image: url('home.jpg');
+    background-size:cover ;
+}
+.header
+{
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+.header h1
+{
+    font-size: 1.7rem;
+    padding :10px;
+}
+.nav
+{
+    margin-left:800px ;
+}
+.nav a
+{
+    padding: 5px;
+}
+.nav a:hover
+{
+    color: #4198e4;
+    border-bottom: 2px solid #4198e4;
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    color:  white;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.containt
+{
+    /*background-color: red;*/
+    margin: auto;
+    width: 30%;
+    margin-left: 80px;
+    margin-top: 100px;
+    color: #fff;
+}
+.containt h1 
+{
+    font-size: 2.5rem;
+}
+.containt h3
+{
+    color: #4198e4;
+    margin-bottom: 20px;
+    margin-top: px;
+    font-size: 1.5rem;
+}
+.btn-class .btn
+{
+    background-color:  #4198e4;
+    padding: 10px;   
+    margin-right: 20px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    width: 150px;
+    border: 1px solid black;
+}
+.footer
+{
+    margin: 80px;
+}
+.footer img
+{
+    border: 3px solid #4198e4;
+    padding: 2px;
+    border-radius: 20%; 
+    margin-top: 80px;  
+}
